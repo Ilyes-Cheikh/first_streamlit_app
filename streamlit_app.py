@@ -48,7 +48,7 @@ streamlit.stop()
 my_data_row=my_cur.fetchall()
 streamlit.header("the fruit load list contains:")
 def get_fruit_load_list():
-  with my_cur = my_cnx.cursor():
+  with my_cnx.cursor():
     my_cur.execute("select * from fruit_load_list")
     return my_cur_fetchall()
 
