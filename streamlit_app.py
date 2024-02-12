@@ -43,7 +43,7 @@ except:
 
 
 
-streamlit.stop()
+
 
 my_data_row=my_cur.fetchall()
 streamlit.header("the fruit load list contains:")
